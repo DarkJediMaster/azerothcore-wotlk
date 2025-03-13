@@ -1,9 +1,10 @@
 -- DB update 2023_05_15_00 -> 2023_05_17_00
 --
-DELETE FROM `smart_scripts` WHERE `source_type` = 0 AND `entryorguid` IN (-151020,-151021,-151022,-151023,-151024,-151025,-151026,-151027,-151028,-151029,-151030,-151031,-151032,-151033,-151034,-151019,-151020,-151021,-151022,-151023,-151024,-151025,-151026,-151027,-151028,-151029,-151030,-151031,-151032,-151033,-151034) AND `action_type` = 80 AND `action_param1` IN (1670011, 1670012);
+DELETE FROM `smart_scripts` WHERE `source_type` = 0 AND `entryorguid` IN (-151019,-151020,-151021,-151022,-151023,-151024,-151025,-151026,-151027,-151028,-151029,-151030,-151031,-151032,-151033,-151034,-151019,-151020,-151021,-151022,-151023,-151024,-151025,-151026,-151027,-151028,-151029,-151030,-151031,-151032,-151033,-151034) AND `action_type` = 80 AND `action_param1` IN (1670011, 1670012);
 
 DELETE FROM `smart_scripts` WHERE `source_type` = 0 AND `entryorguid` IN (-151019,-151020,-151021,-151022,-151023,-151024,-151025,-151026,-151027,-151028,-151029,-151030,-151031,-151032,-151033,-151034,-151019,-151020,-151021,-151022,-151023,-151024,-151025,-151026,-151027,-151028,-151029,-151030,-151031,-151032,-151033,-151034) AND `action_type` = 226;
 INSERT INTO `smart_scripts` (`entryorguid`, `source_type`, `id`, `link`, `event_type`, `event_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `event_param5`, `action_type`, `action_param1`, `action_param2`, `action_param3`, `action_param4`, `action_param5`, `action_param6`, `target_type`, `target_param1`, `target_param2`, `target_param3`, `target_param4`, `target_x`, `target_y`, `target_z`, `target_o`, `comment`) VALUES
+(-151019, 0, 1006, 0, 11, 0, 100, 0, 0, 0, 0, 0, 0, 226, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 'Shattered Hand Legionnaire - On Respawn - Disable'),
 (-151020, 0, 1001, 0, 11, 0, 100, 0, 0, 0, 0, 0, 0, 226, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 'Shattered Hand Reaver - On Respawn - Disable'),
 (-151021, 0, 1001, 0, 11, 0, 100, 0, 0, 0, 0, 0, 0, 226, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 'Shattered Hand Sharpshooter - On Respawn - Disable'),
 (-151022, 0, 1001, 0, 11, 0, 100, 0, 0, 0, 0, 0, 0, 226, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 'Shattered Hand Heathen - On Respawn - Disable'),
